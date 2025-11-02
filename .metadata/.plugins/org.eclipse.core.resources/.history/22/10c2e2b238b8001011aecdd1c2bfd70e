@@ -1,0 +1,37 @@
+package ex_aula29;
+
+import java.util.Scanner;
+
+import java.util.Locale;
+
+public class Ex_4 {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+
+		int number;
+
+		int hours;
+
+		double perHour;
+
+		double salary;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite o seu número de registro:");
+		number = sc.nextInt();
+		System.out.println("Digite o número de horas trabalhadas:");
+		hours = sc.nextInt();
+		System.out.println("Digite o valor por hora de trabalho:");
+		perHour = sc.nextDouble();
+		salary = hours * perHour;
+		System.out.printf("Número de registro: %d%n", number);
+		System.out.printf("Salário: %d%n", salary);
+
+		sc.close();
+
+	}
+
+}
