@@ -1,8 +1,0 @@
-INDEX VERSION 1.134+D:\Diogo\Cursos\Java\.metadata\.plugins\org.eclipse.jdt.core
-934534992.index
-524495999.index
-2444019641.index
-4292304995.index
-2222219189.index
-1865797976.index
-755363590.index
