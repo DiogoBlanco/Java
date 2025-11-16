@@ -5,15 +5,35 @@ public class Product {
     public double price = 0;
     public int quantity = 0;
 
+    // Contrutor padrão
+    public Product() {
+    }
+
+    // Construtor
+    public Product(String name, double price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
+    // Sobrecarga do construtor
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
     public double totalValueInStock() {
+
         return price * quantity;
     }
 
     public void addProducts(int quantity) {
+
         this.quantity += quantity;
     }
 
     public void removeProducts(int quantity) {
+
         this.quantity -= quantity;
     }
 
